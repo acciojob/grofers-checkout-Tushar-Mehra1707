@@ -1,2 +1,26 @@
-
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+table {
+  width: 300px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.total-row {
+  font-weight: bold;
+  background-color: #dff0d8;
+}
